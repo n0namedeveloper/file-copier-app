@@ -62,9 +62,7 @@ int main(int argc, char* argv[])
 
 void FatalError(char c, const char* msg, int exit_status)
 {
-    fprintf(stderr, "%c:%d\n", c, errno); 
-    fprintf(stderr, "%c:%s\n", c, strerror(errno));
-    fprintf(stderr, "%c:%s\n", c, msg);
+    fprintf(stderr, "%c:%d:%s:%s\n", c, errno, strerror(errno), msg);
     exit(exit_status);
 }
 
