@@ -129,7 +129,7 @@ int main(int argc, char* argv[]) {
         }
     } else if (cpm_options.overwrite) {
         if (stat(cpm_options.outfile, &outfile_stat) != 0 && errno == ENOENT) {
-            fprintf(stderr, "OUTFILE НЕ ІСНУЄ\n");
+            fprintf(stderr, "OUTFILE NEEXISTUJE\n");
             close(infile_fd);
             exit(24);
         }
