@@ -9,7 +9,9 @@
 #include <dirent.h>
 #include <time.h>
 #include <stdbool.h>
-// Function to display parsed options from the command line
+
+
+
 void PrintCopymasterOptions(struct CopymasterOptions* cpm_options) {
     printf("Parsed options:\n");
     printf("Infile: %s\n", cpm_options->infile);
