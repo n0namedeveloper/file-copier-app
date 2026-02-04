@@ -1,4 +1,4 @@
-# Operačné systémy 2018 - Copymaster
+#Copymaster
 
 Tento projekt obsahuje základnú štruktúru zadania Copymaster.
 
